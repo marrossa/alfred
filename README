@@ -1,0 +1,37 @@
+README
+
+This project was created for a class course.
+
+Prerrequisites:
+===============
+Watson:
+-------
+1. Create a IBM Cloud Account
+
+2. Install Watson Developer Cloud
+pip install -I watson-developer-cloud==0.26.1
+
+For more reference:
+https://console.bluemix.net/docs/services/discovery/getting-started.html#getting-started-with-the-api
+https://www.youtube.com/watch?v=q4SVFg6bN5E&feature=youtu.be
+https://www.youtube.com/watch?v=kwmqJRDbv98&feature=youtu.be
+
+Google:
+-------
+1. Create an Account
+
+2. Install google services
+
+
+Run the program
+=========================================
+The project works as follows:
+1. First you need to select an audio file
+2. The file will be transcribed to text using google cloud services library
+3. The text will be sent to Watson Cloud Services to query the data (already stored in a collection)
+4. The text result will be transformed to Audio
+5. The audio will be played
+
+To start, run alfred.py file
+
+This project contains several python files for Watson communication
